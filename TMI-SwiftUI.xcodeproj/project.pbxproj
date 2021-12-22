@@ -7,13 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7781F860FDF69E4AAB81851B /* Pods_TMI_SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E8252067713F6A2C4EB788 /* Pods_TMI_SwiftUI.framework */; };
+		9583E79A40F092E64E44B4D4 /* Pods_TMI_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174237B88AC564C916FE919B /* Pods_TMI_SwiftUITests.framework */; };
 		962E3222276AC02400DEB35F /* TMI_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3221276AC02400DEB35F /* TMI_SwiftUIApp.swift */; };
-		962E3224276AC02400DEB35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3223276AC02400DEB35F /* ContentView.swift */; };
+		962E3224276AC02400DEB35F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3223276AC02400DEB35F /* LoginView.swift */; };
 		962E3226276AC02600DEB35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962E3225276AC02600DEB35F /* Assets.xcassets */; };
 		962E3229276AC02600DEB35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 962E3228276AC02600DEB35F /* Preview Assets.xcassets */; };
 		962E3233276AC02600DEB35F /* TMI_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3232276AC02600DEB35F /* TMI_SwiftUITests.swift */; };
 		962E323D276AC02600DEB35F /* TMI_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E323C276AC02600DEB35F /* TMI_SwiftUIUITests.swift */; };
 		962E323F276AC02600DEB35F /* TMI_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E323E276AC02600DEB35F /* TMI_SwiftUIUITestsLaunchTests.swift */; };
+		962E324D276AC31E00DEB35F /* icon-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E324C276AC31E00DEB35F /* icon-login.png */; };
+		962E324F276AC32800DEB35F /* icon-setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E324E276AC32800DEB35F /* icon-setting.png */; };
+		962E3251276AC96F00DEB35F /* TMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3250276AC96F00DEB35F /* TMI.swift */; };
+		962E3253276AC9D100DEB35F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3252276AC9D100DEB35F /* Extensions.swift */; };
+		962E3256276ACAD500DEB35F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E3255276ACAD500DEB35F /* User.swift */; };
+		962E3262276AD54300DEB35F /* Feed-Header.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E3257276AD54200DEB35F /* Feed-Header.png */; };
+		962E3263276AD54300DEB35F /* icon-my.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E3258276AD54200DEB35F /* icon-my.png */; };
+		962E3264276AD54300DEB35F /* icon-home.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E3259276AD54200DEB35F /* icon-home.png */; };
+		962E3265276AD54300DEB35F /* icon-best.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325A276AD54200DEB35F /* icon-best.png */; };
+		962E3266276AD54300DEB35F /* JJANGU.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325B276AD54200DEB35F /* JJANGU.png */; };
+		962E3267276AD54300DEB35F /* icon-following.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325C276AD54200DEB35F /* icon-following.png */; };
+		962E3268276AD54300DEB35F /* category-wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325D276AD54200DEB35F /* category-wine.png */; };
+		962E3269276AD54300DEB35F /* kakao-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325E276AD54300DEB35F /* kakao-login.png */; };
+		962E326A276AD54300DEB35F /* profile-sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E325F276AD54300DEB35F /* profile-sample.png */; };
+		962E326B276AD54300DEB35F /* icon-plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E3260276AD54300DEB35F /* icon-plus.png */; };
+		962E326C276AD54300DEB35F /* apple-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 962E3261276AD54300DEB35F /* apple-login.png */; };
+		962E326E276B140C00DEB35F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E326D276B140C00DEB35F /* AppDelegate.swift */; };
+		962E3270276B175600DEB35F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962E326F276B175600DEB35F /* FeedView.swift */; };
+		964F60D1276F6F3100ACBE90 /* ChangwonDangamAsac-Bold_0712.otf in Resources */ = {isa = PBXBuildFile; fileRef = 964F60D0276F6F1A00ACBE90 /* ChangwonDangamAsac-Bold_0712.otf */; };
+		964F60D3276F793D00ACBE90 /* SpoqaHanSansNeo-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 964F60D2276F793D00ACBE90 /* SpoqaHanSansNeo-Bold.otf */; };
+		964F60D52771C5BB00ACBE90 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F60D42771C5BB00ACBE90 /* MyView.swift */; };
+		964F60D72771C5C400ACBE90 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964F60D62771C5C400ACBE90 /* WritingView.swift */; };
+		96D32611276C0F6E0064232F /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D32610276C0F6E0064232F /* TabView.swift */; };
+		96D32613276C17520064232F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D32612276C17520064232F /* FeedViewModel.swift */; };
+		96D32615276C214B0064232F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96D32614276C214B0064232F /* GoogleService-Info.plist */; };
+		B08BECE8B1A1648A300D03ED /* Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A16B7195209C2EE907B7D /* Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +62,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12E8252067713F6A2C4EB788 /* Pods_TMI_SwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMI_SwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174237B88AC564C916FE919B /* Pods_TMI_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMI_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AFEA0922619F92A16AB1E9F /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUI-TMI-SwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUI-TMI-SwiftUIUITests/Pods-TMI-SwiftUI-TMI-SwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1A16B7195209C2EE907B7D /* Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41130BE1E2F4CC7203366028 /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUI-TMI-SwiftUIUITests.release.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUI-TMI-SwiftUIUITests/Pods-TMI-SwiftUI-TMI-SwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		535240C7210F5E8D4E17D74A /* Pods-TMI-SwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUI/Pods-TMI-SwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		7E03096D2FB6464570BFFA80 /* Pods-TMI-SwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUI.release.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUI/Pods-TMI-SwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		81FA902ED77A680A7C940FDC /* Pods-TMI-SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUITests/Pods-TMI-SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		962E321E276AC02400DEB35F /* TMI-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TMI-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		962E3221276AC02400DEB35F /* TMI_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMI_SwiftUIApp.swift; sourceTree = "<group>"; };
-		962E3223276AC02400DEB35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		962E3223276AC02400DEB35F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		962E3225276AC02600DEB35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		962E3228276AC02600DEB35F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		962E322E276AC02600DEB35F /* TMI-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMI-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +80,33 @@
 		962E3238276AC02600DEB35F /* TMI-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TMI-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		962E323C276AC02600DEB35F /* TMI_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMI_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		962E323E276AC02600DEB35F /* TMI_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMI_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		962E324C276AC31E00DEB35F /* icon-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-login.png"; sourceTree = "<group>"; };
+		962E324E276AC32800DEB35F /* icon-setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-setting.png"; sourceTree = "<group>"; };
+		962E3250276AC96F00DEB35F /* TMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMI.swift; sourceTree = "<group>"; };
+		962E3252276AC9D100DEB35F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		962E3255276ACAD500DEB35F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		962E3257276AD54200DEB35F /* Feed-Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Feed-Header.png"; sourceTree = "<group>"; };
+		962E3258276AD54200DEB35F /* icon-my.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-my.png"; sourceTree = "<group>"; };
+		962E3259276AD54200DEB35F /* icon-home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-home.png"; sourceTree = "<group>"; };
+		962E325A276AD54200DEB35F /* icon-best.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-best.png"; sourceTree = "<group>"; };
+		962E325B276AD54200DEB35F /* JJANGU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JJANGU.png; sourceTree = "<group>"; };
+		962E325C276AD54200DEB35F /* icon-following.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-following.png"; sourceTree = "<group>"; };
+		962E325D276AD54200DEB35F /* category-wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category-wine.png"; sourceTree = "<group>"; };
+		962E325E276AD54300DEB35F /* kakao-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kakao-login.png"; sourceTree = "<group>"; };
+		962E325F276AD54300DEB35F /* profile-sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-sample.png"; sourceTree = "<group>"; };
+		962E3260276AD54300DEB35F /* icon-plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-plus.png"; sourceTree = "<group>"; };
+		962E3261276AD54300DEB35F /* apple-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-login.png"; sourceTree = "<group>"; };
+		962E326D276B140C00DEB35F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		962E326F276B175600DEB35F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		962E3271276B1F2500DEB35F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		964F60D0276F6F1A00ACBE90 /* ChangwonDangamAsac-Bold_0712.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChangwonDangamAsac-Bold_0712.otf"; sourceTree = "<group>"; };
+		964F60D2276F793D00ACBE90 /* SpoqaHanSansNeo-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpoqaHanSansNeo-Bold.otf"; sourceTree = "<group>"; };
+		964F60D42771C5BB00ACBE90 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		964F60D62771C5C400ACBE90 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		96D32610276C0F6E0064232F /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		96D32612276C17520064232F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		96D32614276C214B0064232F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA9BE824EEE1941B059541A4 /* Pods-TMI-SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMI-SwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-TMI-SwiftUITests/Pods-TMI-SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7781F860FDF69E4AAB81851B /* Pods_TMI_SwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9583E79A40F092E64E44B4D4 /* Pods_TMI_SwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,12 +130,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08BECE8B1A1648A300D03ED /* Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		534A2F93E935A6107522F1BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12E8252067713F6A2C4EB788 /* Pods_TMI_SwiftUI.framework */,
+				3B1A16B7195209C2EE907B7D /* Pods_TMI_SwiftUI_TMI_SwiftUIUITests.framework */,
+				174237B88AC564C916FE919B /* Pods_TMI_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72B2AD074770E975F5C22AE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				535240C7210F5E8D4E17D74A /* Pods-TMI-SwiftUI.debug.xcconfig */,
+				7E03096D2FB6464570BFFA80 /* Pods-TMI-SwiftUI.release.xcconfig */,
+				1AFEA0922619F92A16AB1E9F /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.debug.xcconfig */,
+				41130BE1E2F4CC7203366028 /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.release.xcconfig */,
+				81FA902ED77A680A7C940FDC /* Pods-TMI-SwiftUITests.debug.xcconfig */,
+				EA9BE824EEE1941B059541A4 /* Pods-TMI-SwiftUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		962E3215276AC02400DEB35F = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +167,8 @@
 				962E3231276AC02600DEB35F /* TMI-SwiftUITests */,
 				962E323B276AC02600DEB35F /* TMI-SwiftUIUITests */,
 				962E321F276AC02400DEB35F /* Products */,
+				72B2AD074770E975F5C22AE9 /* Pods */,
+				534A2F93E935A6107522F1BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,9 +185,21 @@
 		962E3220276AC02400DEB35F /* TMI-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				962E3271276B1F2500DEB35F /* Info.plist */,
+				96D32614276C214B0064232F /* GoogleService-Info.plist */,
 				962E3221276AC02400DEB35F /* TMI_SwiftUIApp.swift */,
-				962E3223276AC02400DEB35F /* ContentView.swift */,
+				962E326D276B140C00DEB35F /* AppDelegate.swift */,
+				962E3223276AC02400DEB35F /* LoginView.swift */,
+				96D32610276C0F6E0064232F /* TabView.swift */,
+				962E326F276B175600DEB35F /* FeedView.swift */,
+				96D32612276C17520064232F /* FeedViewModel.swift */,
+				964F60D42771C5BB00ACBE90 /* MyView.swift */,
+				964F60D62771C5C400ACBE90 /* WritingView.swift */,
+				962E3252276AC9D100DEB35F /* Extensions.swift */,
 				962E3225276AC02600DEB35F /* Assets.xcassets */,
+				962E3254276ACABA00DEB35F /* Models */,
+				964F60CF276F6EFB00ACBE90 /* Fonts */,
+				962E324B276AC30F00DEB35F /* images */,
 				962E3227276AC02600DEB35F /* Preview Content */,
 			);
 			path = "TMI-SwiftUI";
@@ -127,6 +230,44 @@
 			path = "TMI-SwiftUIUITests";
 			sourceTree = "<group>";
 		};
+		962E324B276AC30F00DEB35F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				962E324C276AC31E00DEB35F /* icon-login.png */,
+				962E324E276AC32800DEB35F /* icon-setting.png */,
+				962E3261276AD54300DEB35F /* apple-login.png */,
+				962E325D276AD54200DEB35F /* category-wine.png */,
+				962E3257276AD54200DEB35F /* Feed-Header.png */,
+				962E325A276AD54200DEB35F /* icon-best.png */,
+				962E325C276AD54200DEB35F /* icon-following.png */,
+				962E3259276AD54200DEB35F /* icon-home.png */,
+				962E3258276AD54200DEB35F /* icon-my.png */,
+				962E3260276AD54300DEB35F /* icon-plus.png */,
+				962E325B276AD54200DEB35F /* JJANGU.png */,
+				962E325E276AD54300DEB35F /* kakao-login.png */,
+				962E325F276AD54300DEB35F /* profile-sample.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		962E3254276ACABA00DEB35F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				962E3250276AC96F00DEB35F /* TMI.swift */,
+				962E3255276ACAD500DEB35F /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		964F60CF276F6EFB00ACBE90 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				964F60D0276F6F1A00ACBE90 /* ChangwonDangamAsac-Bold_0712.otf */,
+				964F60D2276F793D00ACBE90 /* SpoqaHanSansNeo-Bold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 962E3242276AC02600DEB35F /* Build configuration list for PBXNativeTarget "TMI-SwiftUI" */;
 			buildPhases = (
+				E8BEE08964AB12FBAEF4FE92 /* [CP] Check Pods Manifest.lock */,
 				962E321A276AC02400DEB35F /* Sources */,
 				962E321B276AC02400DEB35F /* Frameworks */,
 				962E321C276AC02400DEB35F /* Resources */,
+				95E3BAFFA9FA6E93DC6C9DEC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +294,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 962E3245276AC02600DEB35F /* Build configuration list for PBXNativeTarget "TMI-SwiftUITests" */;
 			buildPhases = (
+				E7AADD4CB64F4582BDC00977 /* [CP] Check Pods Manifest.lock */,
 				962E322A276AC02600DEB35F /* Sources */,
 				962E322B276AC02600DEB35F /* Frameworks */,
 				962E322C276AC02600DEB35F /* Resources */,
@@ -169,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 962E3248276AC02600DEB35F /* Build configuration list for PBXNativeTarget "TMI-SwiftUIUITests" */;
 			buildPhases = (
+				46A78166C3F06C05253665AE /* [CP] Check Pods Manifest.lock */,
 				962E3234276AC02600DEB35F /* Sources */,
 				962E3235276AC02600DEB35F /* Frameworks */,
 				962E3236276AC02600DEB35F /* Resources */,
+				DF69C0680D9BB8D766F529D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +377,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962E326B276AD54300DEB35F /* icon-plus.png in Resources */,
 				962E3229276AC02600DEB35F /* Preview Assets.xcassets in Resources */,
+				962E324D276AC31E00DEB35F /* icon-login.png in Resources */,
+				962E3264276AD54300DEB35F /* icon-home.png in Resources */,
+				962E3268276AD54300DEB35F /* category-wine.png in Resources */,
+				962E3263276AD54300DEB35F /* icon-my.png in Resources */,
+				962E326A276AD54300DEB35F /* profile-sample.png in Resources */,
+				962E3265276AD54300DEB35F /* icon-best.png in Resources */,
 				962E3226276AC02600DEB35F /* Assets.xcassets in Resources */,
+				96D32615276C214B0064232F /* GoogleService-Info.plist in Resources */,
+				962E3267276AD54300DEB35F /* icon-following.png in Resources */,
+				964F60D1276F6F3100ACBE90 /* ChangwonDangamAsac-Bold_0712.otf in Resources */,
+				962E3266276AD54300DEB35F /* JJANGU.png in Resources */,
+				962E324F276AC32800DEB35F /* icon-setting.png in Resources */,
+				962E3262276AD54300DEB35F /* Feed-Header.png in Resources */,
+				964F60D3276F793D00ACBE90 /* SpoqaHanSansNeo-Bold.otf in Resources */,
+				962E326C276AD54300DEB35F /* apple-login.png in Resources */,
+				962E3269276AD54300DEB35F /* kakao-login.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,13 +414,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46A78166C3F06C05253665AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMI-SwiftUI-TMI-SwiftUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E3BAFFA9FA6E93DC6C9DEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI/Pods-TMI-SwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI/Pods-TMI-SwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI/Pods-TMI-SwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF69C0680D9BB8D766F529D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI-TMI-SwiftUIUITests/Pods-TMI-SwiftUI-TMI-SwiftUIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI-TMI-SwiftUIUITests/Pods-TMI-SwiftUI-TMI-SwiftUIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TMI-SwiftUI-TMI-SwiftUIUITests/Pods-TMI-SwiftUI-TMI-SwiftUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7AADD4CB64F4582BDC00977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMI-SwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BEE08964AB12FBAEF4FE92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TMI-SwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		962E321A276AC02400DEB35F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				962E3224276AC02400DEB35F /* ContentView.swift in Sources */,
+				962E3270276B175600DEB35F /* FeedView.swift in Sources */,
+				962E326E276B140C00DEB35F /* AppDelegate.swift in Sources */,
+				964F60D72771C5C400ACBE90 /* WritingView.swift in Sources */,
+				964F60D52771C5BB00ACBE90 /* MyView.swift in Sources */,
+				96D32611276C0F6E0064232F /* TabView.swift in Sources */,
+				962E3251276AC96F00DEB35F /* TMI.swift in Sources */,
+				962E3224276AC02400DEB35F /* LoginView.swift in Sources */,
 				962E3222276AC02400DEB35F /* TMI_SwiftUIApp.swift in Sources */,
+				962E3256276ACAD500DEB35F /* User.swift in Sources */,
+				962E3253276AC9D100DEB35F /* Extensions.swift in Sources */,
+				96D32613276C17520064232F /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +687,7 @@
 		};
 		962E3243276AC02600DEB35F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535240C7210F5E8D4E17D74A /* Pods-TMI-SwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -422,12 +697,13 @@
 				DEVELOPMENT_TEAM = 7MM9R793M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TMI-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +719,7 @@
 		};
 		962E3244276AC02600DEB35F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E03096D2FB6464570BFFA80 /* Pods-TMI-SwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,12 +729,13 @@
 				DEVELOPMENT_TEAM = 7MM9R793M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TMI-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +751,7 @@
 		};
 		962E3246276AC02600DEB35F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81FA902ED77A680A7C940FDC /* Pods-TMI-SwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,7 +759,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MM9R793M6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,6 +777,7 @@
 		};
 		962E3247276AC02600DEB35F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9BE824EEE1941B059541A4 /* Pods-TMI-SwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,7 +785,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7MM9R793M6;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -523,6 +803,7 @@
 		};
 		962E3249276AC02600DEB35F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFEA0922619F92A16AB1E9F /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +827,7 @@
 		};
 		962E324A276AC02600DEB35F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41130BE1E2F4CC7203366028 /* Pods-TMI-SwiftUI-TMI-SwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

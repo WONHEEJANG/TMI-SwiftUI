@@ -1,8 +1,16 @@
-//
-//  WritingView.swift
-//  TMI-SwiftUI
-//
-//  Created by Jason on 2021/12/21.
-//
 
-import Foundation
+import SwiftUI
+
+struct WritingView: View {
+    
+    
+    var body: some View {
+    
+        Text("WritingView")
+    }
+}
+struct WritingView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyView()
+    }
+}

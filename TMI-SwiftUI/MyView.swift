@@ -1,8 +1,16 @@
-//
-//  MyView.swift
-//  TMI-SwiftUI
-//
-//  Created by Jason on 2021/12/21.
-//
 
-import Foundation
+import SwiftUI
+
+struct MyView: View {
+    
+    
+    var body: some View {
+    
+        Text("MyView")
+    }
+}
+struct MyView_Previews: PreviewProvider {
+    static var previews: some View {
+        MyView()
+    }
+}
